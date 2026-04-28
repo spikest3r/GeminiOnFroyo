@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#1a1a2e">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:background="#16213e"
+        android:textColor="#e0e0e0"
+        android:textColorHint="#666688"
+        android:hint="Type your message..."
+        android:padding="12dp"
+        android:gravity="top"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textColor="#ffffff"
+        android:background="#0f3460"
+        android:padding="12dp"/>
+    
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear history"
+        android:textColor="#ffffff"
+        android:background="#0f3460"
+        android:padding="12dp"/>
+
+</LinearLayout>
